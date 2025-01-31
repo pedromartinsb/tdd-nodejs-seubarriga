@@ -1,7 +1,10 @@
 {
   "name": "tdd-nodejs-seubarriga",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "start": "node src/server.js",
     "test": "jest",
@@ -22,6 +25,9 @@
   "dependencies": {
     "body-parser": "1.18.3",
     "consign": "0.1.6",
-    "express": "4.16.4"
+    "express": "4.16.4",
+    "knex": "0.21.1",
+    "knex-logger": "^0.1.0",
+    "pg": "8.0.3"
   }
 }
